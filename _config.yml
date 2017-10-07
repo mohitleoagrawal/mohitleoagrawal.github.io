@@ -16,7 +16,7 @@
 title: Mohit Agrawal
 email: mohitleoagrawal@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Find stuff about me and some of stuff that occupies me(mostly ideas, observation and data).
+  Find about some of stuff that occupies me(mostly ideas, observation and data).
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
