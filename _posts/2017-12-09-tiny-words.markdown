@@ -234,8 +234,11 @@ Most statements are assertions directly out of my head. I haven't validated them
 
 
 
-#### How-to and Contribution
+#### How-to
 
 * The above table was generated using jisho.org looking up each word and 'usage' part autocompletion from search sometimes
 * Table was copied from onenote to [this webpage](https://www.tablesgenerator.com/markdown_tables)
+
+#### Feedback
+
 * If you feel something can be improved, please comment or leave me a message.
