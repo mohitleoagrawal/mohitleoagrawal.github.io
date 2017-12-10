@@ -12,7 +12,7 @@ Currently, I am working at Yahoo! Japan, Tokyo on Content Personalisation.
 Earlier I graduated in 2015 from IIT Delhi where I studied courses on Electrical Engineering, Computer Science &
 Mathematics. I also participated in numerous National Robotics Competitions. 
 
-I enjoying working on problems involving data science.
+I enjoy working on problems involving data science.
 
 
 Elsewhere
