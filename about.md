@@ -20,14 +20,12 @@ I enjoy working on problems involving data science.
 </p>
 </p>
 
-<p>
 
 Elsewhere
 ==============
 + [Linkedin](https://www.linkedin.com/in/mohitleo)
 + [Github](https://github.com/mohi)
 
-</p>
 
 About this site
 ===============
