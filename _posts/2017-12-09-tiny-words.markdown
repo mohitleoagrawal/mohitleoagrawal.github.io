@@ -113,14 +113,11 @@ Most statements are assertions directly out of my head. Haven't validated them s
 |                     	| Sign                    	| A good sign has appeared             	|
 | こ                  	| 子                      	| かわいい子                           	|
 |                     	| Child, boy/girl         	| Cute baby/girl                       	|
-|                     	|                         	|                                      	|
 | さ                  	| 差                      	| 差をつける                           	|
 |                     	| Difference/             	| Make a distinction                   	|
 |                     	| Remainder               	| 差がある                             	|
-|                     	|                         	|                                      	|
 | し                  	| 死                      	| 死の恐怖　死のきょうふ               	|
 |                     	| Death                   	| Fear of death                        	|
-|                     	|                         	|                                      	|
 |                     	| 詩                      	| 詩の才能　しのさいのう               	|
 |                     	| Poem                    	| Poetic talent                        	|
 |                     	|                         	| ミルトンの詩                         	|
@@ -133,7 +130,6 @@ Most statements are assertions directly out of my head. Haven't validated them s
 |                     	|                         	| Making a nest                        	|
 |                     	| 酢                      	| 野菜を酢につける                     	|
 |                     	| Vinegar                 	| Pickle vegetables in vinegar         	|
-|                     	|                         	|                                      	|
 |                     	| 素                      	| 素の自分                             	|
 |                     	| Pure                    	| True oneself                         	|
 | せ                  	| 背                      	| 椅子の背　いすのせ                   	|
@@ -146,7 +142,6 @@ Most statements are assertions directly out of my head. Haven't validated them s
 |                     	| Rapids, shallows        	| Year end                             	|
 | そ                  	| 祖                      	| 英詩の祖                             	|
 |                     	| Ancestor/Father         	| Father of english poetry             	|
-|                     	|                         	|                                      	|
 | ち                  	| 血                      	| 血を採る　ちをとる                   	|
 |                     	| Blood                   	| Draw blood(for a test)               	|
 |                     	|                         	| 血が出てる                           	|
@@ -192,7 +187,6 @@ Most statements are assertions directly out of my head. Haven't validated them s
 |                     	| expense                 	|                                      	|
 | ふ                  	|                         	|                                      	|
 | へ                  	|                         	|                                      	|
-|                     	|                         	|                                      	|
 | ほ                  	| 帆                      	| 帆に向かう                           	|
 |                     	| Sail                    	| Against the sails                    	|
 |                     	| 穂                      	| 稲の穂                               	|
@@ -231,10 +225,8 @@ Most statements are assertions directly out of my head. Haven't validated them s
 |                     	| advantage/profit        	|                                      	|
 |                     	| 里                      	|                                      	|
 |                     	| unit of area            	|                                      	|
-|                     	|                         	|                                      	|
 | ろ                  	| 炉                      	|                                      	|
 |                     	| furnace                 	|                                      	|
-|                     	|                         	|                                      	|
 | わ                  	| 輪                      	| チームの和                           	|
 |                     	| ring/loop/wheel         	| Team Harmony                         	|
 |                     	| 和                      	|                                      	|
