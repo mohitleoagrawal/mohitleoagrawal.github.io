@@ -10,15 +10,16 @@ categories: [language]
 <img src="/images/posts/2017-12-09/e_well.png" alt="title image" width="300" align="center"/> 
 </p>
 
-With a language background of English & Hindi, learning Japanese was astonishing.  It surprised at times by peculiarities like onomatopoeia, softness. One more of them was having tiny words and still able to carry significant meaning.
+With a language background of English & Hindi, learning Japanese was astonishing.  It surprised at times by peculiarities like onomatopoeia, softness. One more of them was having tiny words and still able to carry significant meaning.  
+    Note: Character readings should be read the way you read english alphabets for e.g. read 'e' as 'e' in 'elephant' and not 'e' in 'set'.  
 
-## What I want to talk about?
+## What this post is about?
 
 **Single lettered nouns in Japanese**
 
-The chinese writing system use pictographs for compaction. It has a lot of symbols where each symbol represents a concept. Japanese writing system has symbols inherited from the chinese and has similar kind of conceptual meaning. Like this symbol 森 represent a 'forest'.  Another fun moment was the realization of existence of one-phoneme words and still carrying meaning. For instance, you can just use 'e' for  stomach, 'a' for picture, 'mu' for concept of nothingness. It contrasts greatly from english or hindi where most nouns are longer. 
+The chinese writing system use pictographs for compaction. It has a lot of symbols where each symbol represents a concept. Japanese writing system has symbols inherited from the chinese and has similar kind of conceptual meaning. Like this symbol 森 represent a 'forest'.  Another fun moment was the realization of existence of one-phoneme words and still carrying meaning. For instance, you can just use 'e' for  stomach(胃), 'a' for picture(絵), 'mu' for concept of nothingness(無). It contrasts greatly from english or hindi where most nouns are longer. 
 
-## What could be its consequences?
+## What are its consequences?
 
 **Harder to learn Japanese**
 
@@ -27,20 +28,19 @@ Japanese learners face more difficulty in absorbing the language.
 Which is due to increase in complexity for resolution of words.
 	
 	
-## Why did this happen?
+## Why this might have happened?
 
 **Communication Efficiency**
 
-* Believing that humans care about efficiency, we would need a efficient data compression scheme(huffman encoding is a good example)
-  which should be dependent on following features 
-    * How important is utterance of that word?
-         * If a word is uttered a lot of times, it should be important. Like 'water' seems more important than 'dry ice' as humans need water more often than dry ice. 
-    * How fundamental a concept is?
+Believing that humans care about efficiency, we would need a efficient data compression scheme(huffman encoding is a good example) which should be dependent on following features 
+  * How important is utterance of that word?
+    * If a word is uttered a lot of times, it should be important. Like 'water' seems more important than 'dry ice' as humans need water more often than dry ice. 
+  * How fundamental a concept is?
     
     
 ### Disclaimer
 
-Most statements are assertions directly out of my head. I haven't validated them so please dig more into them to verify for correctness and completeness.
+Most statements are assertions directly out of my head. I haven't validated them so please dig more into them to verify for correctness or completeness.
 
 
 ## Single lettered words in Japanese
@@ -49,7 +49,7 @@ Most statements are assertions directly out of my head. I haven't validated them
 <img src="/images/posts/2017-12-09/jap_alphabets.jpg" alt="japanese alphabets" width="600" align="left"/> 
 </p>
 
-| Reading                | Word                    	| Usage                                	|
+| Reading                  | Word                        	| Usage                                	|
 |---------------------	|-------------------------	|--------------------------------------	|
 | い                 	| 胃                      	| 胃が痛い                             	|
 |                     	| Stomach                 	| Stomach pain                         	|
@@ -238,8 +238,13 @@ Most statements are assertions directly out of my head. I haven't validated them
 #### How-to
 
 * The above table was generated using jisho.org looking up each word and 'usage' part autocompletion from search sometimes
-* Table was copied from onenote to [this webpage](https://www.tablesgenerator.com/markdown_tables)
+* [This tool](https://www.tablesgenerator.com/markdown_tables) was used to help in formatting
+
+## Takeaway
+
+Checkout the list of japanese nouns made from just one character. It is good to expand your japanese vocabulary.  
 
 #### Feedback
 
-* If you feel something can be improved, please comment or leave me a message.
+* All comments are appreciated. 
+* Especially if you feel something can be improved, please add your suggestion in comments below or leave me a message.
