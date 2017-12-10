@@ -10,7 +10,7 @@ categories: [language]
 <img src="/images/posts/2017-12-09/e_well.png" alt="title image" width="300" align="center"/> 
 </p>
 
-With a language background of English & Hindi, learning Japanese was astonishing.  It surprised at times by peculiarities like onomatopoeia, softness. One more of them was having tiny words and still able to carry significant meaning.  
+With a language background of English & Hindi, learning Japanese was astonishing for me.  It surprised at times with peculiarities like onomatopoeia, softness. One more of them was having tiny words and still able to carry significant meaning.  
     Note: Character readings should be read the way you read english alphabets for e.g. read 'e' as 'e' in 'elephant' and not 'e' in 'set'.  
 
 ## What this post is about?
