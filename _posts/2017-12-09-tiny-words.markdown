@@ -1,12 +1,15 @@
 ---
 layout: post
-title:  "Tiny Words in Japanese!"
+title:  "Tiny but Meaningful Words in Japanese"
 date:   2017-12-09 18:47:00 +0900
 categories: nlp language
 ---
 
+<p align="center">
+<img src="e_well.png" alt="title image" width="300" align="center"/> 
+</p>
 
-With a background of English & Hindi, learning Japanese was astonishing.  It surprised at times by peculiarities like onomatopoeia, softness.  One of them was having tiny words and still able to carry significant meaning.
+With a language background of English & Hindi, learning Japanese was astonishing.  It surprised at times by peculiarities like onomatopoeia, softness.  One of them was having tiny words and still able to carry significant meaning.
 
 ## What I want to talk about?
 
@@ -16,12 +19,16 @@ Usually the chinese writing system is said to be the same way. It has a lot of s
 
 ## What could be its consequences?
 
+**Harder to learn Japanese**
+
 Out of my (limited) personal experience, it is harder to parse words in speech especially for unseen words.
 Non-native japanese speakers should face more difficulty in absorbing the language.
 Which is due to increase in complexity for resolution of words.
 	
 	
 ## Why is this a thing?
+
+**Communication Efficiency**
 
 * Believing that humans care about efficiency, we would need a efficient data compression scheme(huffman encoding is a good example)
   which should be dependent on following features 
@@ -37,6 +44,10 @@ Most statements are assertions directly out of my head. Haven't validated them s
 
 
 ## Single lettered words in Japanese
+
+<p align="center">
+<img src="jap_alphabets.png" alt="japanese alphabets" width="600" align="left"/> 
+</p>
 
 | Letter/Word Reading 	| Word                    	| Usage                                	|
 |---------------------	|-------------------------	|--------------------------------------	|
@@ -229,7 +240,10 @@ Most statements are assertions directly out of my head. Haven't validated them s
 |                     	| 和                      	|                                      	|
 |                     	| peace/japan-style/sum   	|                                      	|
 
-##### How-to and Contribution
-* Generated using jisho.org looking up every word one by one and used autocompletion from search sometimes
-* Table copied from onenote to [this webpage](https://www.tablesgenerator.com/markdown_tables)
+
+
+#### How-to and Contribution
+
+* The above table was generated using jisho.org looking up each word and 'usage' part autocompletion from search sometimes
+* Table was copied from onenote to [this webpage](https://www.tablesgenerator.com/markdown_tables)
 * If you feel something can be improved, please comment or leave me a message.
