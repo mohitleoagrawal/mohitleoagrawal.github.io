@@ -6,9 +6,13 @@ permalink: /about/
 
 <img src="/images/profile.png" alt="me" width="180" style="float: left;"> 
   
-Currently, I am working at Yahoo! Japan, Tokyo on Content Personalisation. Earlier I graduated in 2015
-from IIT Delhi. I studied courses on Electrical Engineering, Computer Science &
-Mathematics and participated in numerous National Robotics Competitions. I enjoying working on problems involving data science.
+
+Currently, I am working at Yahoo! Japan, Tokyo on Content Personalisation.
+
+Earlier I graduated in 2015 from IIT Delhi where I studied courses on Electrical Engineering, Computer Science &
+Mathematics. I also participated in numerous National Robotics Competitions. 
+
+I enjoying working on problems involving data science.
 
 
 Elsewhere
