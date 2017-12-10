@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img src="/images/profile.png" alt="me" width="180" style="float: left;"> 
+<img src="/images/profile.png" alt="me" width="180"> 
   
 
 Currently, I am working at Yahoo! Japan, Tokyo on Content Personalisation.
