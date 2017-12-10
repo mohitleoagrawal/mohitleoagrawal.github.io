@@ -45,7 +45,7 @@ Most statements are assertions directly out of my head. I haven't validated them
 ## Single lettered words in Japanese
 
 <p align="center">
-<img src="/images/posts/2017-12-09/jap_alphabets.png" alt="japanese alphabets" width="600" align="left"/> 
+<img src="/images/posts/2017-12-09/jap_alphabets.jpg" alt="japanese alphabets" width="600" align="left"/> 
 </p>
 
 | Reading                | Word                    	| Usage                                	|
