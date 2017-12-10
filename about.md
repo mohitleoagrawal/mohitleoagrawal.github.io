@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 <p>
-<img src="/images/profile.png" alt="me" width="180" align="left"> 
+<img src="/images/profile.png" alt="me" width="180" style="float: left;"> 
 <p>
 Currently, I am working at Yahoo! Japan, Tokyo on Content Personalisation.
 </p>
