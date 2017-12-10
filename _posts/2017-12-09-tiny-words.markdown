@@ -6,7 +6,7 @@ categories: nlp language
 ---
 
 <p align="center">
-<img src="e_well.png" alt="title image" width="300" align="center"/> 
+<img src="/images/posts/2017-12-09/e_well.png" alt="title image" width="300" align="center"/> 
 </p>
 
 With a language background of English & Hindi, learning Japanese was astonishing.  It surprised at times by peculiarities like onomatopoeia, softness.  One of them was having tiny words and still able to carry significant meaning.
@@ -46,7 +46,7 @@ Most statements are assertions directly out of my head. Haven't validated them s
 ## Single lettered words in Japanese
 
 <p align="center">
-<img src="jap_alphabets.png" alt="japanese alphabets" width="600" align="left"/> 
+<img src="/images/posts/2017-12-09/jap_alphabets.png" alt="japanese alphabets" width="600" align="left"/> 
 </p>
 
 | Letter/Word Reading 	| Word                    	| Usage                                	|
