@@ -49,9 +49,9 @@ Most statements are assertions directly out of my head. Haven't validated them s
 <img src="/images/posts/2017-12-09/jap_alphabets.png" alt="japanese alphabets" width="600" align="left"/> 
 </p>
 
-| Letter/Word Reading 	| Word                    	| Usage                                	|
+| Reading                | Word                    	| Usage                                	|
 |---------------------	|-------------------------	|--------------------------------------	|
-| い                  	| 胃                      	| 胃が痛い                             	|
+| い                 	| 胃                      	| 胃が痛い                             	|
 |                     	| Stomach                 	| Stomach pain                         	|
 |                     	|                         	| 胃袋　いぶくろ                       	|
 |                     	|                         	| Belly                                	|
@@ -239,6 +239,7 @@ Most statements are assertions directly out of my head. Haven't validated them s
 |                     	| ring/loop/wheel         	| Team Harmony                         	|
 |                     	| 和                      	|                                      	|
 |                     	| peace/japan-style/sum   	|                                      	|
+
 
 
 
