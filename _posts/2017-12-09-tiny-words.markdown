@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Tiny but Meaningful Words in Japanese"
+title:  "Tiny but Meaningful Japanese Words"
 date:   2017-12-09 18:47:00 +0900
 comments: true
 categories: [language]
