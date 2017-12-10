@@ -5,29 +5,29 @@ permalink: /about/
 ---
 
 <p>
-<img src="/images/profile.png" alt="me" width="150" align="left"> 
+<img src="/images/profile.png" alt="me" width="180" align="left"> 
 <p>
 Currently, I am working at Yahoo! Japan, Tokyo on Content Personalisation.
 </p>
-<br>
 <p>
 Earlier I graduated in 2015
 from IIT Delhi.
 I studied courses on Electrical Engineering, Computer Science &
 Mathematics and participated in numerous National Robotics Competitions.
 </p>
-<br>
 <p>
 I enjoy working on problems involving data science.
 </p>
 </p>
 
-
+<p>
 
 Elsewhere
 ==============
 + [Linkedin](https://www.linkedin.com/in/mohitleo)
 + [Github](https://github.com/mohi)
+
+</p>
 
 About this site
 ===============
