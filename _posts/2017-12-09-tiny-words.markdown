@@ -49,7 +49,7 @@ Most statements are assertions directly out of my head. I haven't validated them
 <img src="/images/posts/2017-12-09/jap_alphabets.jpg" alt="japanese alphabets" width="600" align="left"/> 
 </p>
 
-| Reading                  | Word                        	| Usage                                	|
+| Reading      | Word              	| Usage                                	|
 |---------------------	|-------------------------	|--------------------------------------	|
 | い                 	| 胃                      	| 胃が痛い                             	|
 |                     	| Stomach                 	| Stomach pain                         	|
