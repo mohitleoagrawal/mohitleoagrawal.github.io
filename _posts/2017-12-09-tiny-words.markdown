@@ -2,45 +2,44 @@
 layout: post
 title:  "Tiny but Meaningful Words in Japanese"
 date:   2017-12-09 18:47:00 +0900
-categories: nlp language
+categories: language
 ---
 
 <p align="center">
 <img src="/images/posts/2017-12-09/e_well.png" alt="title image" width="300" align="center"/> 
 </p>
 
-With a language background of English & Hindi, learning Japanese was astonishing.  It surprised at times by peculiarities like onomatopoeia, softness.  One of them was having tiny words and still able to carry significant meaning.
+With a language background of English & Hindi, learning Japanese was astonishing.  It surprised at times by peculiarities like onomatopoeia, softness. One more of them was having tiny words and still able to carry significant meaning.
 
 ## What I want to talk about?
 
 **Single lettered nouns in Japanese**
 
-Usually the chinese writing system is said to be the same way. It has a lot of symbols where each symbol represent a concept. Japanese writing system has symbols inherited from the chinese and has similarly conceptual meaning. Like this symbol represent a 'forest'.  Another fun moment was the realization of existence of one-phoneme words and still carrying meaning. For instance, you can just use 'e' for  stomach, 'a' for picture, 'mu' for concept of nothingness. It is contrasts from english or hindi where most nouns appears quite distinct. 
+Usually the chinese writing system use pictographs for compaction. It has a lot of symbols where each symbol represents a concept. Japanese writing system has symbols inherited from the chinese and has similar kind of conceptual meaning. Like this symbol 森 represent a 'forest'.  Another fun moment was the realization of existence of one-phoneme words and still carrying meaning. For instance, you can just use 'e' for  stomach, 'a' for picture, 'mu' for concept of nothingness. It contrasts greatly from english or hindi where most nouns are longer. 
 
 ## What could be its consequences?
 
 **Harder to learn Japanese**
 
 Out of my (limited) personal experience, it is harder to parse words in speech especially for unseen words.
-Non-native japanese speakers should face more difficulty in absorbing the language.
+Japanese learners face more difficulty in absorbing the language.
 Which is due to increase in complexity for resolution of words.
 	
 	
-## Why is this a thing?
+## Why did this happen?
 
 **Communication Efficiency**
 
 * Believing that humans care about efficiency, we would need a efficient data compression scheme(huffman encoding is a good example)
   which should be dependent on following features 
     * How important is utterance of that word?
-    	* If a word is uttered a lot of times, it should be important
-	    * like 'water' should be important than 'dry ice' 
+         * If a word is uttered a lot of times, it should be important. Like 'water' seems more important than 'dry ice' as humans need water more often than dry ice. 
     * How fundamental a concept is?
     
     
 ### Disclaimer
 
-Most statements are assertions directly out of my head. Haven't validated them so please dig more into it to verify for correctness and completeness.
+Most statements are assertions directly out of my head. I haven't validated them so please dig more into them to verify for correctness and completeness.
 
 
 ## Single lettered words in Japanese
