@@ -3,18 +3,22 @@ layout: page
 title: About
 permalink: /about/
 ---
+
 <p>
-<img src="/images/profile.png" alt="me" width="250" align="left"/> 
+<img src="/images/profile.png" alt="me" width="250" align="left"> </img>
 
 Currently, I am working at Yahoo! Japan, Tokyo on Content Personalisation.
-
+<br>
 Earlier I graduated in 2015
 from IIT Delhi.
 I studied courses on Electrical Engineering, Computer Science &
 Mathematics and participated in numerous National Robotics Competitions.
-
+<br>
 I enjoy working on problems involving data science. 
+<br><br>
+<br><br>
 </p>
+
 
 
 Elsewhere
