@@ -244,7 +244,7 @@ Most statements are assertions directly out of my head. I haven't validated them
 
 Checkout the list of japanese nouns made from just one character. It is good to expand your japanese vocabulary.  
 
-#### Feedback
+#### **Feedback**
 
 * All comments are appreciated. 
 * Especially if you feel something can be improved, please add your suggestion in comments below or leave me a message.
