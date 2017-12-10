@@ -2,7 +2,7 @@
 layout: post
 title:  "Tiny but Meaningful Words in Japanese"
 date:   2017-12-09 18:47:00 +0900
-categories: language
+categories: [language]
 ---
 
 <p align="center">
@@ -15,7 +15,7 @@ With a language background of English & Hindi, learning Japanese was astonishing
 
 **Single lettered nouns in Japanese**
 
-Usually the chinese writing system use pictographs for compaction. It has a lot of symbols where each symbol represents a concept. Japanese writing system has symbols inherited from the chinese and has similar kind of conceptual meaning. Like this symbol 森 represent a 'forest'.  Another fun moment was the realization of existence of one-phoneme words and still carrying meaning. For instance, you can just use 'e' for  stomach, 'a' for picture, 'mu' for concept of nothingness. It contrasts greatly from english or hindi where most nouns are longer. 
+The chinese writing system use pictographs for compaction. It has a lot of symbols where each symbol represents a concept. Japanese writing system has symbols inherited from the chinese and has similar kind of conceptual meaning. Like this symbol 森 represent a 'forest'.  Another fun moment was the realization of existence of one-phoneme words and still carrying meaning. For instance, you can just use 'e' for  stomach, 'a' for picture, 'mu' for concept of nothingness. It contrasts greatly from english or hindi where most nouns are longer. 
 
 ## What could be its consequences?
 
