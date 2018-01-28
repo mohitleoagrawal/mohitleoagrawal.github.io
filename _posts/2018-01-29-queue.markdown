@@ -22,10 +22,18 @@ Queues occur in different scenarios and forms. We will be taking very specific f
 
 **Waiting time is a function of a few exponential random variables**
 
-Think from the toll plaza case. Arrival of vehicles can be modelled as poisson distribution and therefore arrival time of vehicles can be modelled with Exponential distribution. Following can be drawn for the modelling.
+
+Think from the toll plaza case. Arrival of vehicles can be modelled as poisson distribution and therefore arrival time of vehicles can be modelled with Exponential distribution.
 
 <p align="center">
-<img src="/images/posts/2018-01-29/wait_equartion.png" alt="title image" width="200" align="center"/> 
+<img src="/images/posts/2018-01-29/arrival_time.png" alt="title image" width="300" align="center"/> 
+</p>
+
+
+Following can be drawn for the modelling.
+
+<p align="center">
+<img src="/images/posts/2018-01-29/wait_equation.png" alt="title image" width="200" align="center"/> 
 </p>
 	
 	
@@ -50,7 +58,7 @@ Validation example from [thumb of queuing theory](https://en.wikipedia.org/wiki/
 
 Having reached here, I recalled a design(from university project days) to support this
 <p align="center">
-<img src="/images/posts/2018-01-29/multibooth.gif" alt="title image" width="200" align="center"/> 
+<img src="/images/posts/2018-01-29/tollbooth.gif" alt="title image" width="200" align="center"/> 
 </p>
 TODO insert gif
 One drawback that I can think of this design .. but if we add waiting time estimators.
