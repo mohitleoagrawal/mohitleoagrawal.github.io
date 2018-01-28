@@ -1,1 +1,69 @@
+---
+layout: post
+title:  "Fix that design with simple stats!"
+date:   2018-01-29 00:30:00 +0900
+comments: true
+categories: [stats]
+---
+
+<p align="center">
+<img src="/images/posts/2018-01-29/xkcd_bad_design.png" alt="title image" width="200" align="center"/> 
+</p>
+
+One hatred that we all universally share is waiting in line. Often there is a solution to this problem which is design improvement exactly like the above graph. Well, I agree that this is a bad citation to badly cited material but nonetheless the idea is that putting more thought into design solves some of our frustrations. 
+
+## What this post is about?
+
+**Simple statistical modelling of waiting time in queues**
+
+Queues occur in different scenarios and forms. We will be taking very specific form of queue which is motivated from my first-hand frustrations with waiting at toll booths, immigration, elevators, toilets(yes, we will talk about this). The scenario is consumers gets in a line in order to procur a service in FCFS(First come first serve) basis and waits until a slot for the service is empty. Recently I have thought about this problem most when lining up for immigration and toilets. Tempted to understand more about the problem, I read about it and realised this is a very well studied subject known as Queuing theory. It has a vast number of use cases including telecommunications and computing. It starts with well defined notation and terminiolgies. Reading all this for my first-hand problems seemed overkill and hence decided to model just my simple case and see how can we fix this. Plus, I was also lazy enough to not collect all the data for this problem in real world and go follow a data driven approach. 
+
+## Basic Model
+
+**Waiting time is a function of a few exponential random variables**
+
+Think from the toll plaza case. Arrival of vehicles can be modelled as poisson distribution and therefore arrival time of vehicles can be modelled with Exponential distribution. Following can be drawn for the modelling.
+
+<p align="center">
+<img src="/images/posts/2018-01-29/wait_equartion.png" alt="title image" width="200" align="center"/> 
+</p>
+	
+	
+## Experiments and Inference
+
+**Simulation for toll booths**
+
+Data from research paper for gurgaon toll plaza.
+Note: Most general models have line merging 
+Coding that model in simple python and plugging in data from the paper.
+
+### Analysis 
+
+#### Need of a flexible system to reduce frustration and maximise performance
+#### Gains in waiting time are big even for a small change
+TODO Insert graph
+<p align="center">
+<img src="/images/posts/2018-01-29/graph1.png" alt="title image" width="200" align="center"/> 
+</p>
+
+Validation example from [thumb of queuing theory](https://en.wikipedia.org/wiki/Queuing_Rule_of_Thumb)
+
+Having reached here, I recalled a design(from university project days) to support this
+<p align="center">
+<img src="/images/posts/2018-01-29/multibooth.gif" alt="title image" width="200" align="center"/> 
+</p>
+TODO insert gif
+One drawback that I can think of this design .. but if we add waiting time estimators.
+
+#### TODO GOOD DESIGN
+
+
+
+## Parting note 
+It demostrate the same that exact physics is tough but helps to understand the phenomena behind this. Plus data might not be readily available at all times. In that case, small simulation can point out the shortcoming of our designs in early phases.
+
+    
+### Disclaimer
+
+Most statements are assertions directly out of my head. I haven't validated them so please dig more into them to verify for correctness or completeness.
 
