@@ -7,7 +7,7 @@ categories: [stats]
 ---
 
 <p align="center">
-<img src="/images/posts/2018-01-29/xkcd_bad_design.png" alt="title image" width="200" align="center"/> 
+<img src="/images/posts/2018-01-29/xkcd_bad_design.png" alt="title image" width="400" align="center"/> 
 </p>
 
 One hatred that we all universally share is waiting in line. Often there is a solution to this problem which is design improvement exactly like the above graph. Well, I agree that this is a bad citation to badly cited material but nonetheless the idea is that putting more thought into design solves some of our frustrations. 
@@ -26,14 +26,14 @@ Queues occur in different scenarios and forms. We will be taking very specific f
 Think from the toll plaza case. Arrival of vehicles can be modelled as poisson distribution and therefore arrival time of vehicles can be modelled with Exponential distribution.
 
 <p align="center">
-<img src="/images/posts/2018-01-29/arrival_time.png" alt="title image" width="300" align="center"/> 
+<img src="/images/posts/2018-01-29/arrival_time.png" alt="title image" width="500" align="center"/> 
 </p>
 
 
 Following can be drawn for the modelling.
 
 <p align="center">
-<img src="/images/posts/2018-01-29/wait_equation.png" alt="title image" width="200" align="center"/> 
+<img src="/images/posts/2018-01-29/wait_equation.png" alt="title image" width="500" align="center"/> 
 </p>
 	
 	
@@ -51,14 +51,14 @@ Coding that model in simple python and plugging in data from the paper.
 #### Gains in waiting time are big even for a small change
 TODO Insert graph
 <p align="center">
-<img src="/images/posts/2018-01-29/graph1.png" alt="title image" width="200" align="center"/> 
+<img src="/images/posts/2018-01-29/graph1.png" alt="title image" width="400" align="center"/> 
 </p>
 
 Validation example from [thumb of queuing theory](https://en.wikipedia.org/wiki/Queuing_Rule_of_Thumb)
 
 Having reached here, I recalled a design(from university project days) to support this
 <p align="center">
-<img src="/images/posts/2018-01-29/tollbooth.gif" alt="title image" width="200" align="center"/> 
+<img src="/images/posts/2018-01-29/tollbooth.gif" alt="title image" width="400" align="center"/> 
 </p>
 TODO insert gif
 One drawback that I can think of this design .. but if we add waiting time estimators.
