@@ -53,7 +53,8 @@ Note: There are [models](https://sites.math.washington.edu/~morrow/mcm/cary05.pd
 <p align="center">
 <img src="/images/posts/2018-01-29/graph1.png" alt="title image" width="400" align="center"/> 
 </p>
-This is a graph from the simulation showing average waiting of vehicle with changing number of booths and number of vehicles. The service time is taken to be 5 minutes.    
+This is a graph from the simulation showing average waiting of vehicle with changing number of booths and number of vehicles. The service time is taken to be 5 minutes.  
+
 ### Need of a flexible system to reduce frustration and maximise performance
 
 Going through the above graph, we can see that the current number of booths i.e. 18 can only deal within 5 minutes for just 400 vehicles. 
