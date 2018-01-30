@@ -10,7 +10,12 @@ categories: [stats]
 <img src="/images/posts/2018-01-29/xkcd_bad_design.png" alt="title image" width="400" align="center"/> 
 </p>
 
-One hatred that we universally share is waiting in line. Be it airports, toll booths, elevators and even toilets. I personally have faced all but recently the dreading thought of sharing toilet set me into mental adrealine rush. Fortunately sharing 2 toilets amongst 25 people  turned out to be perfectly fine which is not having to wait even once in 2 months of normal usage. This is optimistic for sharing economy but still there are N number of services which are equally worse. But often there is a solution which is a design improvement as shown in the above graph. Rigor aside, the idea is Putting more thought into design helps to dismiss some of our frustrations with everyday services. This post will take a simple example of queues to illustrate the point.
+   One hatred that we universally share is waiting in line. Be it airports, toll booths, elevators and even toilets. I personally have faced all but recently the dreading thought of sharing toilet set me into mental adrealine rush. Fortunately sharing 2 toilets amongst 25 people  turned out to be perfectly fine which is not having to wait even once in 2 months of normal usage. This is optimistic for sharing economy but still there are N number of services which are equally worse. But often there is a solution which is a design improvement as shown in the above graph. Rigor aside,  
+the idea is  
+   
+   Putting more thought into design helps to dismiss some of our frustrations with everyday services.  
+   
+This post will take a simple example of queues to illustrate the point.
 
 ## What this post is about?
 
@@ -41,20 +46,20 @@ Normally number of arrivals can be modelled as poisson distribution and subseque
 **Simulation of a real toll booth**
 
 One such [troubling toll booth](http://www.thehindu.com/news/cities/Delhi/remove-kherki-daula-toll-plaza-commuters/article5747416.ece) has been at an Indian national highway on the Delhi-Gurgaon junction causing vehicles to wait for 15-30 at busy times. 
-After writing down the above described model in python and plugging in specific toll booth data from this, we are ready to query python for the toll plaza parameters. Depending on the time and day, number of incoming vehicles varies from 400 to 800 in every 2 hours. The toll booth is able to serve each vehicle in about 4.3 minutes. The variables that affect waiting time are rate of incoming vehicles, number of booths and processing time per vehicle.
+After writing down the above described model in python and plugging in specific toll booth data from [this](https://www.researchgate.net/publication/272114452_Application_of_Queuing_Theory_to_Address_Traffic_Problems_at_a_Highway_Toll_Plaza), we are ready to query python for the toll plaza parameters. Depending on the time and day, number of incoming vehicles varies from 400 to 800 in every 2 hours. The toll booth is able to serve each vehicle in about 4.3 minutes. The variables that affect waiting time are rate of incoming vehicles, number of booths and processing time per vehicle.
 Note: There are [models](https://sites.math.washington.edu/~morrow/mcm/cary05.pdf) which takes into account the few seconds of merging and splitting from a single lane. These are more accurate but do not affect our approximate analysis having minutes for just waiting in line. 
 
 ### Analysis 
 <p align="center">
 <img src="/images/posts/2018-01-29/graph1.png" alt="title image" width="400" align="center"/> 
 </p>
-This is a graph from the simulation showing average waiting of vehicle with changing number of booths and number of vehicles. The service time is taken to be 5 minutes.
-#### Need of a flexible system to reduce frustration and maximise performance
+This is a graph from the simulation showing average waiting of vehicle with changing number of booths and number of vehicles. The service time is taken to be 5 minutes.    
+### Need of a flexible system to reduce frustration and maximise performance
 
 Going through the above graph, we can see that the current number of booths i.e. 18 can only deal within 5 minutes for just 400 vehicles. 
 We need to increase number of booths to bring down average waiting time for vehicles more than 400. One suggestion to improve waiting and  maintain productivity of toll booth is a flexible design for number of booths. At 36 as number of booths, even 900 vehicles are dealt within 5 minutes. So a flexible design from 18 to 36 is needed. This is often infeasible in terms of increasing width for the vehicles.
 
-#### Gains in waiting time are big even for a small change
+### Gains in waiting time are big even for a small change
 
 One more important thing to notice is that the decrease in waiting time keeps getting smaller for same increase in number of booths. Just adding 15% more booths in existing 18 booth system cuts downs the waiting time of 23 minutes by 50%. This is because for a slow system, the waiting times become propotional to square of rate of net vehicle accumulation.
 
@@ -62,7 +67,8 @@ One more important thing to notice is that the decrease in waiting time keeps ge
 To simpify queuing theory for application side people, there is [Queuing rule of thumb](https://en.wikipedia.org/wiki/Queuing_Rule_of_Thumb). Which when calculated in our case comes to be 33 for the peak load. Even from the graph our inference is with greater than or equal to 33 should bring time to 2 minutes. Hence, there are similarity symbioatic. 
 
 ### Proposal
-Having reached here, I recalled a design from university group project days to support this
+Having reached here, I recalled a design from university group project days. This design lets us increase number of booths without physically increasing width of the road.
+
 <p align="center">
 <img src="/images/posts/2018-01-29/tollbooth.gif" alt="title image" width="500" align="center"/> 
 </p>
