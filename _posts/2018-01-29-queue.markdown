@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Fix that design with simple stats!"
+title:  "Fix that design with simple stats"
 date:   2018-01-29 00:30:00 +0900
 comments: true
 categories: [stats]
