@@ -66,17 +66,20 @@ Having reached here, I recalled a design from university group project days to s
 <p align="center">
 <img src="/images/posts/2018-01-29/tollbooth.gif" alt="title image" width="500" align="center"/> 
 </p>
-This is about making one lane as multi booth by processing multi-vehicles in a go and effectively making number of booths incease to double. One drawback that I could think of this design it might be confusing for users in case where there is no waiting time display placed. They have to predict and go to the fastest lane which can cause a commotion. 
+Check out the purple ball which is at 4th and 8th in single and double-booth lanes and crosses the booth in the same time
+So this is about making one lane as multi booth by processing multiples vehicles in a go and effectively making number of booths incease to double. One drawback that I could think of this design it might be confusing for users in case where there is no waiting time display placed. They have to predict and go to the fastest lane which can cause a commotion. 
 
-#### TODO GOOD DESIGN
-
-
-
-## Parting note 
+## Takeaway 
 It demostrate the same that exact physics is tough but helps to understand the phenomena behind this. Plus data might not be readily available at all times. In that case, small simulation can point out the shortcoming of our designs in early phases.
 
     
-### Disclaimer
+#### Disclaimer
 
 Most statements are assertions directly out of my head. I haven't validated them so please dig more into them to verify for correctness or completeness.
+
+#### **Feedback**
+
+* All comments are appreciated. 
+* Especially if you feel something can be improved, please add your suggestion in comments below or leave me a message.
+
 
