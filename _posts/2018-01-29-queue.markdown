@@ -46,7 +46,7 @@ Number of arrivals are modelled with poisson distribution and subsequently arriv
 **Simulation of a real toll booth**
 
 One such [troubling toll booth](http://www.thehindu.com/news/cities/Delhi/remove-kherki-daula-toll-plaza-commuters/article5747416.ece) has been at an Indian national highway on the Delhi-Gurgaon junction causing vehicles to wait for 15-30 at busy times. 
-After writing down the above described model in [python](/_code/2018-01-29-queue/Queuing_stats_simulation.ipynb) and plugging in specific toll booth data from [this](https://www.researchgate.net/publication/272114452_Application_of_Queuing_Theory_to_Address_Traffic_Problems_at_a_Highway_Toll_Plaza), we are ready to query python for the toll plaza parameters. Depending on the time and day, number of incoming vehicles varies from 400 to 800 in every 2 hours. Service time of each vehicle in about 4.3 minutes but we will take it 5 mins for simplcity. The variables that affect waiting time are rate of incoming vehicles, number of booths and processing time per vehicle.   
+After writing down the above described model in [python](https://github.com/mohi/mohi.github.io/blob/master/_code/2018-01-29-queue/Queuing_stats_simulation.ipynb) and plugging in specific toll booth data from [this](https://www.researchgate.net/publication/272114452_Application_of_Queuing_Theory_to_Address_Traffic_Problems_at_a_Highway_Toll_Plaza), we are ready to query python for the toll plaza parameters. Depending on the time and day, number of incoming vehicles varies from 400 to 800 in every 2 hours. Service time of each vehicle in about 4.3 minutes but we will take it 5 mins for simplcity. The variables that affect waiting time are rate of incoming vehicles, number of booths and processing time per vehicle.   
 
 Note: There are [models](https://sites.math.washington.edu/~morrow/mcm/cary05.pdf) which takes into account the few seconds of merging and splitting from a single lane. These are more accurate but do not affect our approximate analysis having minutes for just waiting in line. 
 
@@ -66,7 +66,7 @@ We need to increase number of booths to bring down average waiting time for vehi
 One more important thing to notice is that the decrease in waiting time keeps getting smaller for same increase in number of booths. Just adding 15% more booths in existing 18 booth system cuts downs the waiting time of 23 minutes by 50%. This is because for a slow system, the waiting times become propotional to square of rate of net vehicle accumulation.
 
 ### Validation 
-As to approximately estimate proper number of servers, there is [Queuing rule of thumb](https://en.wikipedia.org/wiki/Queuing_Rule_of_Thumb). Queuing rule of thumb gives 33 in our case(N*r/t=800*5/120). Our results also shows number of booths greater than 33 for a 'small' waiting time.  
+As to approximately estimate proper number of servers, there is [Queuing rule of thumb](https://en.wikipedia.org/wiki/Queuing_Rule_of_Thumb). Queuing rule of thumb gives 33 in our case(```N*r/t=800*5/120```). Our results also shows number of booths greater than 33 for a 'small' waiting time.  
 
 ### Proposal
 Having reached here, I recalled a design discussed in one of my university group project(not able to recall the original source of idea). This design lets us increase number of booths without physically increasing width of the road. This is about putting multiple booths in a single lane and thus process multiple vehicles in one go. We put 8 and 10 vehicles in single and double 'boothed' lane respectively.
