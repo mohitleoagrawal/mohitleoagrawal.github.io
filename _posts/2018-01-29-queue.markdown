@@ -69,7 +69,7 @@ One more important thing to notice is that the decrease in waiting time keeps ge
 As to approximately estimate proper number of servers, there is [Queuing rule of thumb](https://en.wikipedia.org/wiki/Queuing_Rule_of_Thumb). Queuing rule of thumb gives 33 in our case(```N*r/t=800*5/120```). Our results also shows number of booths greater than 33 for a 'small' waiting time.  
 
 ### Proposal
-Having reached here, I recalled a design discussed in one of my university group project for a humanities course(not able to recall the original source of idea). This design lets us increase number of booths without physically increasing the width of the road. This is about putting multiple booths in a single lane and thus process multiple vehicles in one go. For illustration below, We put 8 vehicles in left single 'boothed' lane and 12 vehicles in right double 'boothed' lane.
+Having reached here, I recalled a design discussed in one of my university group project for a humanities course(not able to recall the original source of idea). This design lets us increase number of booths without physically increasing the width of the road. This is about putting multiple booths in a single lane and thus process multiple vehicles in one go. For illustration below, We put 8 vehicles in single 'boothed' lane on the left side and 12 vehicles in double 'boothed' lane on the right side.
 
 <p align="center">
 <img src="/images/posts/2018-01-29/tollbooth.gif" alt="title image" width="500" align="center"/> 
