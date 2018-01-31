@@ -3,14 +3,14 @@ layout: post
 title:  "Fix that design with simple stats"
 date:   2018-01-29 00:30:00 +0900
 comments: true
-categories: [stats]
+categories: [stats, first_principles]
 ---
 
 <p align="center">
 <img src="/images/posts/2018-01-29/xkcd_bad_design.png" alt="title image" width="400" align="center"/> 
 </p>
 
-   One hatred that we all share is waiting in line. We wait at airports, toll booths, elevators and even toilets. I hate all of them. Recently having to make a decision to whether share a toilet or not got me into mental adrenaline rush. Eventually sharing 2 toilets amongst 25 people turned out to be non-problematic. Which is not having to wait even once in more than 3 months of usage. This is both surprising and optimistic. There are uncountable number of terrible services yet to fix. And often there is a solution which is by design improvement as shown in the above graph. Rigor aside, 
+   One hatred that we all share is waiting in line. We wait at airports, toll booths, elevators and even toilets. I hate all of them. Recently having to make a decision to whether share a toilet or not got me into mental adrenaline rush. Eventually sharing 2 toilets amongst 25 people turned out to be non-problematic. Which is not having to wait even once in more than 3 months of usage. This is both surprising and optimistic. There are uncountable number of terrible services yet to fix. And often there is a solution which is by design improvement as shown in the above graph. Rigour aside, 
 the idea behind the graph is  
    
    Putting more thought into design helps to dismiss some of our frustrations with everyday services.  
@@ -21,7 +21,7 @@ This post is about a simple example of queues and physics behind it to understan
 
 **Simple statistical modelling of waiting time in queues**
 
-Queues occur in different scenarios and forms. We will be taking very specific form of queue which is motivated from my first-hand frustrations with waiting at toll booths, immigration, elevators. The scenario is consumers gets in a line in order to procur a service in FCFS(First come first serve) basis and waits until a slot for the service is empty. Tempted to understand more about the problem, I read about it and realised this is a very well studied subject known as Queuing theory. It has a vast number of use cases including telecommunications and computing. It starts with well defined notation and terminiolgies. Reading all this for my first-hand problems seemed an overkill and hence I decided to model just for my simpler case and see how can we fix this. Plus, I didn't have any immediate empirical data to compare different different configuration. 
+Queues occur in different scenarios and forms. We will be taking very specific form of queue which is motivated from my first-hand frustrations with waiting at toll booths, immigration, elevators. The scenario is consumers gets in a line in order to procure a service in FCFS(First come first serve) basis and waits until a slot for the service is empty. Tempted to understand more about the problem, I read about it and realised this is a very well studied subject known as Queuing theory. It has a vast number of use cases including telecommunications and computing. It starts with well defined notation and terminologies. Reading all this for my first-hand problems seemed an overkill and hence I decided to model just for my simpler case and see how can we fix this. Plus, I didn't have any immediate empirical data to run this analysis on different configuration. 
 
 ## Basic Model
 
@@ -46,9 +46,9 @@ Number of arrivals are modelled with poisson distribution and subsequently arriv
 **Simulation of a real toll booth**
 
 One such [troubling toll booth](http://www.thehindu.com/news/cities/Delhi/remove-kherki-daula-toll-plaza-commuters/article5747416.ece) has been at an Indian national highway on the Delhi-Gurgaon junction causing vehicles to wait for 15-30 at busy times. 
-After writing down the above described model in [python](https://github.com/mohi/mohi.github.io/blob/master/_code/2018-01-29-queue/Queuing_stats_simulation.ipynb) and plugging in specific toll booth data from [this](https://www.researchgate.net/publication/272114452_Application_of_Queuing_Theory_to_Address_Traffic_Problems_at_a_Highway_Toll_Plaza), we are ready to query python for the toll plaza parameters. Depending on the time and day, number of incoming vehicles varies from 400 to 800 in every 2 hours. Service time of each vehicle in about 4.3 minutes but we will take it 5 mins for simplcity. The variables that affect waiting time are rate of incoming vehicles, number of booths and processing time per vehicle.   
+After writing down the above described model in [python](https://github.com/mohi/mohi.github.io/blob/master/_code/2018-01-29-queue/Queuing_stats_simulation.ipynb) and plugging in specific toll booth data from [this](https://www.researchgate.net/publication/272114452_Application_of_Queuing_Theory_to_Address_Traffic_Problems_at_a_Highway_Toll_Plaza), we are ready to query python for the toll plaza parameters. Depending on the time and day, number of incoming vehicles varies from 400 to 800 in every 2 hours. Service time of each vehicle is about 4.3 minutes but we will take it 5 mins for simplicity. The variables that affect waiting time are rate of incoming vehicles, number of booths and processing time per vehicle.   
 
-Note: There are [models](https://sites.math.washington.edu/~morrow/mcm/cary05.pdf) which takes into account the few seconds of merging and splitting from a single lane. These are more accurate but do not affect our approximate analysis having minutes for just waiting in line. 
+Note: There are [models](https://sites.math.washington.edu/~morrow/mcm/cary05.pdf) which takes into account the few seconds of merging and splitting from a single lane. These are more accurate but do not affect our approximate analysis dealing with waiting time in the order of minutes. 
 
 ### Analysis 
 <p align="center">
@@ -63,21 +63,21 @@ We need to increase number of booths to bring down average waiting time for vehi
 
 ### Gains in waiting time are big even for a small change
 
-One more important thing to notice is that the decrease in waiting time keeps getting smaller for same increase in number of booths. Just adding 15% more booths in existing 18 booth system cuts downs the waiting time of 23 minutes by 50%. This is because for a slow system, the waiting times become propotional to square of rate of net vehicle accumulation.
+One more important thing to notice is that the decrease in waiting time keeps getting smaller for same increase in number of booths. Just adding 15% more booths in existing 18 booth system cuts downs the waiting time of 23 minutes by 50%. This is because for a slow system, the waiting times become proportional to square of rate of net vehicle accumulation.
 
 ### Validation 
 As to approximately estimate proper number of servers, there is [Queuing rule of thumb](https://en.wikipedia.org/wiki/Queuing_Rule_of_Thumb). Queuing rule of thumb gives 33 in our case(```N*r/t=800*5/120```). Our results also shows number of booths greater than 33 for a 'small' waiting time.  
 
 ### Proposal
-Having reached here, I recalled a design discussed in one of my university group project(not able to recall the original source of idea). This design lets us increase number of booths without physically increasing width of the road. This is about putting multiple booths in a single lane and thus process multiple vehicles in one go. We put 8 and 10 vehicles in single and double 'boothed' lane respectively.
+Having reached here, I recalled a design discussed in one of my university group project for a humanities course(not able to recall the original source of idea). This design lets us increase number of booths without physically increasing the width of the road. This is about putting multiple booths in a single lane and thus process multiple vehicles in one go. For illustration below, We put 8 vehicles in left single 'boothed' lane and 12 vehicles in right double 'boothed' lane.
 
 <p align="center">
 <img src="/images/posts/2018-01-29/tollbooth.gif" alt="title image" width="500" align="center"/> 
 </p>
-So basically the double-boothed lane process double the vehicles that of first in the same time. This is flexible for peak and non-peak hours as well. One drawback that we could think of this design it might be confusing for users in case where there is no waiting time display placed. They have to predict and go to the fastest lane which can cause a commotion. 
+So basically the double-boothed lane process double the number of vehicles that of first in the same time. This is flexible for peak and non-peak hours as well. One drawback that we could think of this design it might be confusing for users in case where there is no waiting time display placed. They have to predict and go to the fastest lane which can cause a commotion. 
 
 ## Takeaway 
-We calculated waiting time for different configuration in a queuing scenario. That gives us quantitative measure of cost associated with being frugal with number of booths. At times, we have cases of not having empirical data about variable in interest(here the waiting time). Approximate statistical model like this can help in pointing out the shortcoming in the design.
+We calculated waiting time for different configuration in a queuing scenario. That gives us quantitative measure of cost associated with being frugal with number of booths. At times, we have cases of not having empirical data about variable in interest(here the waiting time). Simple statistical model like this can help in pointing out the shortcoming in the design.
 
     
 #### **Feedback**
