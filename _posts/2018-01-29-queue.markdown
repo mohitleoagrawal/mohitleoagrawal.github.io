@@ -27,7 +27,7 @@ Queues occur in different scenarios and forms. We will be taking very specific f
 
 **Waiting time is a function of a few exponential random variables**
 
-Think of a toll plaza with an inefficient ticketing system enough to cause some wait per vehicle. Vehicle arrives one by one and Arrival time of i<sup>th</sup> vehicle is show by A[i] in the following figure. It Waits for time W[i] and Finishes at F[i].
+Think of a toll plaza with an inefficient ticketing system enough to cause some wait per vehicle. Vehicle arrives one by one and Arrival time of i<sup>th</sup> vehicle is show by A[i] in the following figure. It Waits for time W[i] and Finishes at F[i]. There are B number of booths. This particular case in figure is when vehicle A[i] waits till A[i-B] finishes. The second possible case is when A[i] comes after A[i-B] has finished and thus it need not wait. We will combine these two cases using a Max operation in equations after the figure.
 
 <p align="center">
 <img src="/images/posts/2018-01-29/arrival_time.png" alt="title image" width="700" align="center"/> 
@@ -39,7 +39,7 @@ And above structure can be expressed as a recurrence relation as the following.
 <img src="/images/posts/2018-01-29/wait_equation.png" alt="title image" width="800" align="center"/> 
 </p>
 	
-Number of arrivals are modelled with poisson distribution and subsequently arrival time of vehicles can be modelled with Exponential distribution. Therefore the above expression of W[i] reduces to a function of exponential random variables.
+Number of arrivals are not deterministic. These are modelled with poisson distribution and subsequently arrival time of vehicles can be modelled with Exponential distribution. Therefore the above expression of W[i] reduces to a function of exponential random variables.
 	
 ## Experiments and Inference
 
