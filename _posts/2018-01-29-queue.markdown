@@ -10,8 +10,7 @@ categories: [stats]
 <img src="/images/posts/2018-01-29/xkcd_bad_design.png" alt="title image" width="400" align="center"/> 
 </p>
 
-   One hatred that we all share is waiting in line. We wait at airports, toll booths, elevators and even toilets. I hate all of them. Recently having to make a decision to whether share a toilet or not got me into mental adrenaline rush. Eventually sharing 2 toilets amongst 25 people turned out to be non-problematic. Which is not having to wait even once in more than 3 months of usage. This is both surprising and optimistic. There are uncountable number of terrible services yet to fix. And often there is a solution which is by design improvement as shown in the above graph. Rigour aside, 
-the idea behind the graph is  
+   One hatred that we all share is waiting in line. We wait at airports, toll booths, elevators and even toilets. I hate all of them. Recently I had to make a daunting decision. It was whether to share a toilet or not. Eventually sharing 2 toilets amongst 25 people turned out non-problematic. That is not having to wait even once in more than 3 months of usage. This is both surprising and optimistic. There are a lot of terrible services yet to be fixed. And often there is a solution which is by design improvement as shown in the laid-back graph above. The idea behind the graph is  
    
    Putting more thought into design helps to dismiss some of our frustrations with everyday services.  
    
