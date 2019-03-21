@@ -17,7 +17,7 @@ I enjoy working on problems involving data science.
 
 Elsewhere
 ==============
-+ [Linkedin](https://www.linkedin.com/in/mohitleo)
++ [Linkedin](https://www.linkedin.com/in/mohitleoagrawal)
 + [Github](https://github.com/mohi)
 
 
